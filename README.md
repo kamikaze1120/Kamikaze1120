@@ -1,17 +1,9 @@
 <div align="center">
+  <a href="https://git.io">
+    <img src="https://demolab.com." alt="Typing SVG" />
+  </a>
 
-```bash
-\$ whoami
-> [Your Name] — [Your Role, e.g., Full-Stack Developer & Open Source Tinkerer]
+  <br />
 
-\$ cat ./status.txt
-> Building cool stuff with [Main Language] • Powered by caffeine
-```
-
-<img src="koi/koi.gif" width="256" alt="My coding koi" />
-
-<sub><i>This koi evolves with my GitHub activity. More commits = bigger fish.</i></sub>
-
+  <img src="koi/koi.gif" width="440" alt="My coding koi" />
 </div>
-
-
