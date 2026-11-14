@@ -1,0 +1,37 @@
+name: Draw Koi
+
+on:
+  schedule:
+    # Runs every day shortly after midnight UTC
+    - cron: '15 0 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/koi.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  koi:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Draw git-koi
+        uses: yalongwastaken/git-koi@v1
+        with:
+          # Optional body colors: white (default), black, asagi, tea, gold, platinum
+          body: white
+          output-dir: koi
+
+      - name: Commit updated koi
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add koi/koi.gif
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update profile koi"
+            git push
+          fi
