@@ -1,0 +1,43 @@
+<svg width="560" height="90" viewBox="0 0 560 90" xmlns="http://w3.org">
+  <style>
+    .bg { fill: #050a05; stroke: #00ff41; stroke-width: 1.5; rx: 8; }
+    .text {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 18px;
+      font-weight: bold;
+      fill: #00ff41;
+      letter-spacing: 1px;
+    }
+    .sub {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 12px;
+      fill: #008f11;
+    }
+    .cursor {
+      fill: #00ff41;
+      animation: blink 1s infinite;
+    }
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    .line1 {
+      stroke-dasharray: 450;
+      stroke-dashoffset: 450;
+      animation: type 3s steps(35, end) forwards;
+    }
+  </style>
+
+  <!-- Dark Terminal Box -->
+  <rect class="bg" x="2" y="2" width="556" height="86" />
+
+  <!-- Subtle Matrix Rain Background Characters -->
+  <text class="sub" x="20" y="24" opacity="0.35">01001011  10110  01001111  00101  01001001  11010  01011</text>
+  <text class="sub" x="35" y="76" opacity="0.35">11001  01010100  00110  10101100  01101  00101110  10010</text>
+
+  <!-- Main Glowing Prompt Text -->
+  <text class="text" x="30" y="51">&gt; SYSTEM ONLINE // BUILDING IN THE SHADOWS</text>
+
+  <!-- Blinking Terminal Cursor -->
+  <rect class="cursor" x="508" y="36" width="10" height="18" />
+</svg>
