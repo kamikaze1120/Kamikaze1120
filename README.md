@@ -11,11 +11,13 @@
   <img src="dark_mode.svg" alt="kamikaze1120 — live GitHub stats card, refreshed daily">
 </picture>
 
-<pre align="left"><code>+ &gt; SYSTEM ONLINE // SIGNAL DETECTED
-+ &gt; BUILDING IN THE SHADOWS...
-+ &gt; ANOMALY FOUND: DIGITAL KOI [ACTIVE]</code></pre>
-
 </div>
+
+```diff
++ > SYSTEM ONLINE // SIGNAL DETECTED
++ > BUILDING IN THE SHADOWS...
++ > ANOMALY FOUND: DIGITAL KOI [ACTIVE]
+```
 
 ### `~/now`
 
