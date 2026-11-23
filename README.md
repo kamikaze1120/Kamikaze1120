@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://github.com/kamikaze1120">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=720&height=48&lines=%3E+Mujtaba+%2F%2F+Founder+%40+Nexumcloud;%3E+Building+local-first+AI+agents;%3E+MCP+tooling+%C2%B7+autonomous+workflows+%C2%B7+geo-intel;%3E+Shipping+in+TypeScript%2C+Python+%26+Flutter" alt="Typing intro">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=720&height=48&lines=%3E+Mujtaba+%2F%2F+AI+Engineer+%26+Builder;%3E+Building+local-first+AI+agents;%3E+MCP+tooling+%C2%B7+autonomous+workflows+%C2%B7+geo-intel;%3E+Shipping+in+TypeScript%2C+Python+%26+Flutter" alt="Typing intro">
 </a>
 
 <br>
@@ -21,7 +21,7 @@
 
 ### `~/now`
 
-Building **Nexumcloud** — AI infrastructure for small teams: agents that run locally, talk to real tools through MCP, and stay inside hard guardrails (no surprise deploys, no leaked secrets).
+Building **local-first AI agents**: they run on your own machine, talk to real tools through MCP, and stay inside hard guardrails (no surprise deploys, no leaked secrets).
 
 ### `~/projects`
 

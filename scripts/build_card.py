@@ -15,7 +15,7 @@ import urllib.request
 from xml.sax.saxutils import escape
 
 LOGIN = os.environ.get("PROFILE_LOGIN", "kamikaze1120")
-ROLE = "Founder @ Nexumcloud"
+ROLE = "AI Engineer // Builder"
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 ART = ROOT / "assets" / "art.fragment"
 OUT = ROOT / "dark_mode.svg"
