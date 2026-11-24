@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">Build frequency technology orbit</title>
+  <desc id="desc">Gold and neon-purple technology nodes orbiting a central local-first AI signal.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#04061d"/><stop offset=".55" stop-color="#081539"/><stop offset="1" stop-color="#16072f"/></linearGradient>
+    <linearGradient id="gold"><stop stop-color="#ffedae"/><stop offset=".5" stop-color="#f5bd4c"/><stop offset="1" stop-color="#a96917"/></linearGradient>
+    <linearGradient id="purple"><stop stop-color="#ff61e8"/><stop offset=".48" stop-color="#c03cff"/><stop offset="1" stop-color="#7034ff"/></linearGradient>
+    <radialGradient id="core"><stop stop-color="#fff6c8"/><stop offset=".18" stop-color="#f4c356"/><stop offset=".45" stop-color="#9c45ff"/><stop offset="1" stop-color="#21104e" stop-opacity="0"/></radialGradient>
+    <filter id="glow" x="-120%" y="-120%" width="340%" height="340%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="clip"><rect width="1200" height="330" rx="30"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="330" fill="url(#bg)"/>
+    <g transform="translate(600 165)">
+      <ellipse rx="480" ry="115" fill="none" stroke="#c24bff" stroke-opacity=".22"/>
+      <ellipse rx="365" ry="88" fill="none" stroke="#f0bf50" stroke-opacity=".25" stroke-dasharray="4 10">
+        <animateTransform attributeName="transform" type="rotate" values="0;360" dur="55s" repeatCount="indefinite"/>
+      </ellipse>
+      <circle r="96" fill="url(#core)" opacity=".7"><animate attributeName="r" values="88;104;88" dur="5s" repeatCount="indefinite"/></circle>
+      <circle r="58" fill="#0a1133" fill-opacity=".86" stroke="url(#gold)" stroke-width="2"/>
+      <text y="-8" text-anchor="middle" fill="#f8d36e" font-family="JetBrains Mono,Consolas,monospace" font-size="12" letter-spacing="2">BUILD</text>
+      <text y="18" text-anchor="middle" fill="#fff9ec" font-family="Inter,Segoe UI,sans-serif" font-size="20" font-weight="700">FREQUENCY</text>
+      <text y="39" text-anchor="middle" fill="#d9a4ff" font-family="JetBrains Mono,Consolas,monospace" font-size="9" letter-spacing="1">LOCAL / TOOL-DRIVEN</text>
+    </g>
+
+    <g font-family="JetBrains Mono,Consolas,monospace" font-size="12" text-anchor="middle">
+      <g transform="translate(125 104)"><circle r="34" fill="#101139" stroke="#d64cff"/><text y="5" fill="#f2dfff">TypeScript</text></g>
+      <g transform="translate(270 235)"><circle r="34" fill="#13112f" stroke="#f2c14e"/><text y="5" fill="#ffe7a0">Python</text></g>
+      <g transform="translate(390 86)"><circle r="34" fill="#101139" stroke="#d64cff"/><text y="5" fill="#f2dfff">React</text></g>
+      <g transform="translate(810 86)"><circle r="34" fill="#13112f" stroke="#f2c14e"/><text y="5" fill="#ffe7a0">MCP</text></g>
+      <g transform="translate(930 235)"><circle r="34" fill="#101139" stroke="#d64cff"/><text y="5" fill="#f2dfff">Docker</text></g>
+      <g transform="translate(1075 104)"><circle r="34" fill="#13112f" stroke="#f2c14e"/><text y="5" fill="#ffe7a0">Flutter</text></g>
+      <g transform="translate(445 263)"><circle r="29" fill="#101139" stroke="#d64cff"/><text y="5" fill="#f2dfff">Next.js</text></g>
+      <g transform="translate(755 263)"><circle r="29" fill="#13112f" stroke="#f2c14e"/><text y="5" fill="#ffe7a0">Supabase</text></g>
+    </g>
+
+    <g fill="none" stroke-width="2" opacity=".65">
+      <path d="M159 104C290 104 372 125 505 151" stroke="url(#purple)"/>
+      <path d="M304 230C390 205 455 187 505 174" stroke="url(#gold)"/>
+      <path d="M424 96C475 113 520 128 548 139" stroke="url(#purple)"/>
+      <path d="M776 96C725 113 680 128 652 139" stroke="url(#gold)"/>
+      <path d="M896 230C810 205 745 187 695 174" stroke="url(#purple)"/>
+      <path d="M1041 104C910 104 828 125 695 151" stroke="url(#gold)"/>
+    </g>
+    <circle cx="159" cy="104" r="4" fill="#efc65b" filter="url(#glow)"><animate attributeName="cx" values="159;505" dur="3.2s" repeatCount="indefinite"/><animate attributeName="cy" values="104;151" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="1041" cy="104" r="4" fill="#d651ff" filter="url(#glow)"><animate attributeName="cx" values="1041;695" dur="3.8s" repeatCount="indefinite"/><animate attributeName="cy" values="104;151" dur="3.8s" repeatCount="indefinite"/></circle>
+    <rect width="1200" height="330" rx="30" fill="none" stroke="url(#gold)" stroke-width="2"/>
+  </g>
+</svg>
