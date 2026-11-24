@@ -9,7 +9,7 @@
 </a>
 
 <p>
-I build AI systems that move beyond conversation—agents with memory, tools and the judgment to stop at the right boundary.
+I build AI systems that move beyond conversation agents with memory, tools and the judgment to stop at the right boundary.
 </p>
 
 <sub><code>LOCAL INTELLIGENCE</code>   ✦   <code>MCP INFRASTRUCTURE</code>   ✦   <code>GOVERNED AUTONOMY</code></sub>
